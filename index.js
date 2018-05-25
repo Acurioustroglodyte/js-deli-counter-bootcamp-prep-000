@@ -3,6 +3,10 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
+function nowServing() {
+  
+}
+
 function currentLine(line) {
   var lineOrder = "The line is currently ";
   if (line.length === 0) {
