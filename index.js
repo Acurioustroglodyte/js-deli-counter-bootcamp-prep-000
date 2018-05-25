@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(line) {
-  if (line === null) {
+  if (line === undefined) {
     return "There is nobody waiting to be served!";
   } else {
     return line.pop();
