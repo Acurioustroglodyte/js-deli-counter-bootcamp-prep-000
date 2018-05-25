@@ -3,6 +3,6 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
-function currentLine() {
-  if ()
+function currentLine(line) {
+  if (line === )
 }
