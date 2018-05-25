@@ -9,7 +9,7 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < line.length; i++) {
-      lineOrder += `${counter}\. ${line[counter]},`;
+      lineOrder += `${i}\. ${line[i]},`;
     }
     return lineOrder;
   }
